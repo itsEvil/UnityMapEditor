@@ -1,3 +1,5 @@
+![alt text](https://github.com/itsEvil/UnityMapEditor/blob/31cd40c7b279bd27d958a150f28ba5bb602e84b8/logo.png?raw=true)
+
 # UnityMapEditor
 Public version of my map editor
 
