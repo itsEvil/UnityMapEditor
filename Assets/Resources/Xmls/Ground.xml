@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<GroundTypes>
+	<Ground type="0xd7a" id="Red Tiles">
+		<RandomTexture>
+		    <Texture>
+			    <File>8x8Tiles</File>
+			    <Index>0x0e</Index>
+		    </Texture>
+			<Texture>
+				<File>8x8Tiles</File>
+				<Index>0x1e</Index>
+			</Texture>
+			<Texture>
+				<File>8x8Tiles</File>
+				<Index>0x2e</Index>
+			</Texture>
+			<Texture>
+				<File>8x8Tiles</File>
+				<Index>0x3e</Index>
+			</Texture>
+			<Texture>
+				<File>8x8Tiles</File>
+				<Index>0x4e</Index>
+			</Texture>
+			<Texture>
+				<File>8x8Tiles</File>
+				<Index>0x5e</Index>
+			</Texture>
+		</RandomTexture>
+	</Ground>
+	<Ground type="0xd7b" id="Sandstone Tiles">
+		<RandomTexture>
+			<Texture chance="0.5">
+				<File>8x8Tiles</File>
+				<Index>0x0f</Index>
+			</Texture>
+			<Texture chance="0.25">
+				<File>8x8Tiles</File>
+				<Index>0x1f</Index>
+			</Texture>
+			<Texture chance="0.15">
+				<File>8x8Tiles</File>
+				<Index>0x2f</Index>
+			</Texture>
+			<Texture chance="0.5">
+				<File>8x8Tiles</File>
+				<Index>0x3f</Index>
+			</Texture>
+			<Texture chance="0.25">
+				<File>8x8Tiles</File>
+				<Index>0x4f</Index>
+			</Texture>
+			<Texture chance="0.15">
+				<File>8x8Tiles</File>
+				<Index>0x5f</Index>
+			</Texture>
+		</RandomTexture>
+	</Ground>
+    <Ground type="0x23" id="Bright Grass">
+		<RandomTexture>
+			<Texture chance="0.7">
+				<File>8x8Tiles</File>
+				<Index>0x04</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x14</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x24</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x34</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x44</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x54</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>11</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x46" id="Light Grass">
+		<RandomTexture>
+			<Texture chance="0.5">
+				<File>8x8Tiles</File>
+				<Index>0x06</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x16</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x26</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x36</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x46</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x56</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>4</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x47" id="Yellow Grass">
+		<RandomTexture>
+			<Texture chance="0.7">
+				<File>8x8Tiles</File>
+				<Index>0x07</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x17</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x27</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x37</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x47</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x57</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>5</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x48" id="Grass">
+		<RandomTexture>
+			<Texture chance="0.7">
+				<File>8x8Tiles</File>
+				<Index>0x0c</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x1c</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x2c</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x3c</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x4c</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x5c</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>6</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x56" id="Dark Grass">
+		<RandomTexture>
+		    <Texture chance="0.5">
+                <File>8x8Tiles</File>
+                <Index>0x0</Index>
+            </Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x10</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x20</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x30</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x40</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x50</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>2</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x57" id="Blue Grass">
+		<RandomTexture>
+			<Texture chance="0.5">
+				<File>8x8Tiles</File>
+				<Index>0x08</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x18</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x28</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x38</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x48</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x58</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>8</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x60" id="Rock">
+		<RandomTexture>
+			<Texture chance="0.8">
+				<File>8x8Tiles</File>
+				<Index>0x09</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x19</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x29</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x39</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x49</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x59</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>10</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x6a" id="Snowy Rock">
+		<RandomTexture>
+			<Texture chance="0.8">
+				<File>8x8Tiles</File>
+				<Index>0x0a</Index>
+			</Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x1a</Index>
+			</Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x2a</Index>
+			</Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x3a</Index>
+			</Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x4a</Index>
+			</Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x5a</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>12</BlendPriority>
+        <RandomOffset/>
+    </Ground>
+    <Ground type="0x70" id="Lava">
+		<RandomTexture>
+			<Texture chance="0.8">
+				<File>8x8Tiles</File>
+				<Index>0x0b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x1b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x2b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x3b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x4b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x5b</Index>
+			</Texture>
+		</RandomTexture>
+        <Damage>35</Damage>
+        <Animate dx=".33" dy=".33">Flow</Animate>
+        <Sink/>
+        <Speed>.666</Speed>
+    </Ground>
+    <Ground type="0x72" id="Water">
+		<RandomTexture>			
+            <Texture chance="0.7">
+                <File>8x8Tiles</File>
+                <Index>0x01</Index>
+            </Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x11</Index>
+			</Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x21</Index>
+			</Texture>
+			<Texture chance="0.05">
+				<File>8x8Tiles</File>
+				<Index>0x31</Index>
+			</Texture>
+		</RandomTexture>
+        <Animate dx="1" dy="1">Wave</Animate>
+        <BlendPriority>1</BlendPriority>
+        <Sink/>
+        <Speed>.666</Speed>
+    </Ground>
+    <Ground type="0x73" id="Shallow Water">
+		<RandomTexture>
+			<Texture chance="0.7">
+				<File>8x8Tiles</File>
+				<Index>0x01</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x11</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x21</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x31</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>14</BlendPriority>
+        <Sink/>
+        <Speed>.666</Speed>
+    </Ground>
+    <Ground type="0xbc" id="Dark Water">
+		<RandomTexture>			
+            <Texture chance="0.65">
+                <File>8x8Tiles</File>
+                <Index>0x03</Index>
+            </Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x13</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x23</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x33</Index>
+			</Texture>
+		</RandomTexture>
+        <Sink/>
+        <NoWalk/>
+    </Ground>
+    <Ground type="0xbd" id="Light Sand">
+		<RandomTexture>
+			<Texture chance="0.5">
+				<File>8x8Tiles</File>
+				<Index>0x05</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x15</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x25</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x35</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x45</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x55</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>2</BlendPriority>
+    </Ground>
+    <Ground type="0xbe" id="Dark Sand">
+		<RandomTexture>
+            <Texture chance="0.5">
+                <File>8x8Tiles</File>
+                <Index>0x02</Index>
+            </Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x12</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x22</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x32</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x42</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x52</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>3</BlendPriority>
+    </Ground>
+    <Ground type="0xd0" id="Road">
+		<RandomTexture>
+			<Texture chance="0.4">
+				<File>8x8Tiles</File>
+				<Index>0x0d</Index>
+			</Texture>
+			<Texture chance="0.4">
+				<File>8x8Tiles</File>
+				<Index>0x1d</Index>
+			</Texture>
+			<Texture chance="0.4">
+				<File>8x8Tiles</File>
+				<Index>0x2d</Index>
+			</Texture>
+			<Texture chance="0.4">
+				<File>8x8Tiles</File>
+				<Index>0x3d</Index>
+			</Texture>
+			<Texture chance="0.4">
+				<File>8x8Tiles</File>
+				<Index>0x4d</Index>
+			</Texture>
+			<Texture chance="0.4">
+				<File>8x8Tiles</File>
+				<Index>0x5d</Index>
+			</Texture>
+		</RandomTexture>
+        <BlendPriority>16</BlendPriority>
+        <Speed>1.2</Speed>
+    </Ground>
+    <Ground type="0xf4" id="Lava Blend">
+		<RandomTexture>
+			<Texture chance="0.8">
+				<File>8x8Tiles</File>
+				<Index>0x0b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x1b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x2b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x3b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x4b</Index>
+			</Texture>
+			<Texture chance="0.1">
+				<File>8x8Tiles</File>
+				<Index>0x5b</Index>
+			</Texture>
+		</RandomTexture>
+        <Damage>35</Damage>
+        <Animate dx=".33" dy=".33">Flow</Animate>
+        <Sink/>
+        <Speed>.666</Speed>
+        <BlendPriority>1</BlendPriority>
+    </Ground>
+	
+	<Ground type="0xff" id="Empty">
+		<Texture>
+			<File>invisible</File>
+			<Index>0</Index>
+		</Texture>
+		<NoWalk/>
+		<CompositePriority>-1</CompositePriority>
+	</Ground>
+	
+</GroundTypes>

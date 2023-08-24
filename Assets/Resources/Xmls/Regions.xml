@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Regions>
+	<Region type="0x01" id="Spawn">
+		<Color>0x00FF00</Color>
+	</Region>
+	<Region type="0x69" id="RealmPortal">
+		<Color>0xFF0000</Color>
+	</Region>
+	<Region type="0x68" id="VaultPortal">
+		<Color>0xFFFF00</Color>
+	</Region>
+</Regions>

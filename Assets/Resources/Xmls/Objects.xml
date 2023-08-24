@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Objects>
+	<Object type="0x01" id="Test object">
+		<Texture>
+			<File>invisible</File>
+			<Index>0</Index>
+		</Texture>
+		<Size>100</Size>
+	</Object>
+</Objects>
